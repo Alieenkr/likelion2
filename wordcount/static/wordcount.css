@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+/*css reset*/
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+
+/*base*/
+*{
+    font-family: 'Josefin Slab', serif;
+}
+
+body{
+    text-align: center;
+    color: #3b2512;
+    height: 100%;
+}
+
+.container{
+    margin : 20px 50px;
+}
+
+div{
+    padding-bottom: 30px;
+}
+
+a{
+    padding: 10px;
+    font-weight: bold;
+    color:cornsilk;
+    background-color: #d2a679;
+}
+a:hover{
+    font-weight: bold;
+    color:cornsilk;
+    background-color: #edd7c5;
+    text-decoration: none;
+}
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    right: auto;
+    bottom: 0%;
+    background-color: #d2a679;
+    text-align: center;
+}
+
+footer h5{
+    color:#edd7c5;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+/*home*/
+#home_body{
+    text-align: center;
+    margin: 0px auto;
+    font-family: 'hanna', serif;
+    color: #3b2512;
+}
+
+.home_content{
+    border-left: solid #3b2512 1px;
+    border-right: solid #3b2512 1px;
+    text-align: center;
+    width: 800px;
+    height: auto;
+    margin: 10px auto;
+}
+
+form{
+    font-family: 'hanna', 'nanumgothic';
+}
+
+textarea{
+    margin-left: 30%;
+    margin-right :30%;
+}
+
+.button{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #d2a679;
+    border: none;
+    color: aliceblue;
+    font-family: 'hanna';
+}
+
+/*about*/
+.about_content{
+    border-bottom: solid #3b2512 1px;
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.about_index{
+    display: block;
+    font-weight: bold;
+    color: #d2a679;
+}
+
+/*result*/
+.info{
+    padding-top: 10px;
+}
+
+.result_content{
+    border: dotted #3b2512 1px;
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+.result_content h2{
+    text-align: center;
+    color: #d2a679;
+    font-weight: bold;
+}
+
+.result{
+    text-align: left;
+}
+
+.result h4{
+    margin: 30px 0px;
+    border-bottom: solid #3b2512 2px;
+    font-weight: bold;
+}
+
+.result p{
+    margin: 5px 40px;
+    font-family: 'hanna';
+}
+
+.result_content h3{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.result_span{
+    font-size: 40px; 
+}
+
+.retry{
+    text-align: right;
+}

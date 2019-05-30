@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <div class="home_content">
+        <h2>WRITE ANY TEXT YOU WANNA COUNT !</h2>
+        <form action="{%url 'result'%}">
+            <textarea cols="70" rows="15" name="fulltext" placeholder="글자 수를 알고 싶은 글을 입력하세요."></textarea>
+            <br>
+            <input class="button" type="submit" value="COUNT">
+        </form>
+    </div>
+{% endblock %}

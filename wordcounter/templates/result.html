@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="result_content">
+        <h2>RESULT</h2>
+        <h3><span class="result_span">{{total}}</span> WORDS</h3>
+
+        <div class= "info">
+            <div class="result">
+                <h4>　INPUT TEXT</h4>
+                <p>{{full}}</p>
+
+                <h4>　WORDS COUNT</h4>
+                {% for word, howmany in dictionary%}
+
+                <p>{{word}} : {{howmany}}</p>
+                {%endfor%}
+            </div>
+            <div class="retry">
+                <a href="{%url 'home'%}">RETRY</a>
+            </div>
+        </div>        
+    </div>
+{% endblock %}
